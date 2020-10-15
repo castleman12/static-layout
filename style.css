@@ -1,0 +1,77 @@
+body {
+    background-color: #fff4eb;
+}
+
+#articleSearch {
+    margin: -20px 0 ;
+    display: flex;
+    background-color: #f2e4d9;
+    justify-content: center;
+    font-weight: 1000;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#navigation {
+    display: flex;
+    margin-left: 630px;
+    margin-top: 30px;
+    margin-right: 10px; 
+    font-weight: 800;
+    font-size: 20px;
+    color: #212121;
+}
+
+#list {
+    display: flex;
+    list-style: none;
+    margin: 10px 0 50px 0;
+    text-transform: uppercase;
+}
+
+li {
+    margin: 20px
+}
+
+#freelanceGuide {
+    display: inherit;
+    margin-top: -15px;
+    color: #fff4eb;
+    background-color: #212121;
+    border: 15px solid #212121;
+    text-decoration: none;
+    
+ 
+}
+
+.navLink:link, .navLink:visited {
+    text-decoration: none;
+    color: #212121;
+}
+#freelanceGuide:hover {
+    background-color:  #fff4eb;
+    color: #212121;
+    transition: .5s;
+
+}
+
+
+
+
+
+sidebar {
+    position: fixed;
+    top: 50%;
+    padding: 10px 490px 0 ;
+    margin: 0;
+    left: -580px;
+    transform: rotate(-90deg);
+    background-color: 	#212121;
+    color: #fff4eb;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#workNotes {
+    font-size: 300px;
+}
